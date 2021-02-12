@@ -30,9 +30,20 @@
     3. Once the build is successful, run the following Java command to run the application
        > java -jar ./target/person-0.0.1-SNAPSHOT.jar
        
-    4. The app will start running at - http://localhost:8080
-       
-#### Testing the application locally
+    4. The app will start running at - http://localhost:8080, check if it is started and running successfully
+    
+    5. We are going to Dockerize the application in the next section, you can now stop the application by hitting Ctrl + C
+    
+#### Dockerizing the application
+    1. Run the below command from the application's parent directory for building Docker image
+        > docker build -t person-app .
+    
+    2. Run the below command for running the application image inside Docker container
+        > docker run -p 8080:8080 person-app
+    
+    3. Application image will start and run at port number 8080 inside Docker container
+
+#### Inputs for Testing the application
 The app defines following CRUD APIs,
 
     GET     /ebitest/person/{id}
@@ -44,7 +55,7 @@ Sample inputs for the operations,
 
 JSON input for adding a person 
 
-    POST http://localhost:8080/ebitest/person
+    POST URL: http://localhost:8080/ebitest/person
     
     {
         "first_name": "John",
@@ -55,11 +66,12 @@ JSON input for adding a person
 
 URI input for retrieving a person, here first_name is the id for retrieving a person
     
-    GET http://localhost:8080/ebitest/person/John
+    GET URL: http://localhost:8080/ebitest/person/John
+    
     
 JSON input for updating a person
     
-    PUT http://localhost:8080/ebitest/person
+    PUT URL: http://localhost:8080/ebitest/person
     
     {
         "first_name": "John",
@@ -70,20 +82,10 @@ JSON input for updating a person
 
 URI input for deleting a person
 
-    DELETE http://localhost:8080/ebitest/person/John
+    DELETE URL: http://localhost:8080/ebitest/person/John
     
-#### Dockerizing the application
-    1. Run the below command from the application's parent directory for building Docker image
-        > docker build -t person-app .
+    Note: No JSON request body required
     
-    2. Run the below command for running the application image inside Docker container
-        > docker run -p 8080:8080 person-app
-    
-    3. Application image will start and run at port number 8080 inside Docker container
-    
-    4. For accessing the application running inside Docker, you can use the same API URLs as mentioned above for 
-       accessing the application running locally
-       
 #### Testing the application via Postman
     1. Run the Postman client
     
