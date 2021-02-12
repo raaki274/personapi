@@ -1,0 +1,9 @@
+com.ebitest.person
+com.ebitest.person.exceptions
+com.ebitest.person.rest.controller
+com.ebitest.person.rest.entity
+com.ebitest.person.rest.repository.dao
+com.ebitest.person.rest.service
+com.ebitest.person.rest.service.impl
+com.ebitest.person.test.integration
+com.ebitest.person.test.unit

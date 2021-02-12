@@ -1,0 +1,67 @@
+2021-02-12 11:33:46,058 INFO org.springframework.boot.StartupInfoLogger [main] Starting PersonsApplication using Java 11.0.10 on affu274-GF63-Thin-9SC with PID 60952 (/data/EBI/persons/target/classes started by affu274 in /data/EBI/persons)
+2021-02-12 11:33:46,064 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-02-12 11:33:46,759 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-02-12 11:33:46,767 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-12 11:33:46,767 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-02-12 11:33:46,767 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-12 11:33:46,823 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-02-12 11:33:46,823 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 717 ms
+2021-02-12 11:33:46,888 INFO io.jsondb.JsonDBTemplate [main] Encryption is not enabled for JSON DB
+2021-02-12 11:33:46,949 INFO org.reflections.Reflections [main] Reflections took 25 ms to scan 1 urls, producing 1 keys and 1 values 
+2021-02-12 11:33:47,120 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-12 11:33:47,125 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-12 11:33:47,182 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 6 mappings in 'requestMappingHandlerMapping'
+2021-02-12 11:33:47,201 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-12 11:33:47,209 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-12 11:33:47,244 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-12 11:33:47,274 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/ebitest'
+2021-02-12 11:33:47,281 INFO org.springframework.boot.StartupInfoLogger [main] Started PersonsApplication in 1.704 seconds (JVM running for 2.16)
+2021-02-12 11:35:12,067 INFO org.springframework.boot.StartupInfoLogger [main] Starting PersonApplicationTests using Java 11.0.10 on affu274-GF63-Thin-9SC with PID 61074 (started by affu274 in /data/EBI/persons)
+2021-02-12 11:35:12,070 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-02-12 11:35:12,092 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@770d4269
+2021-02-12 11:35:12,477 INFO io.jsondb.JsonDBTemplate [main] Encryption is not enabled for JSON DB
+2021-02-12 11:35:12,510 INFO org.reflections.Reflections [main] Reflections took 15 ms to scan 1 urls, producing 1 keys and 1 values 
+2021-02-12 11:35:12,826 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-12 11:35:12,835 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-12 11:35:12,885 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 6 mappings in 'requestMappingHandlerMapping'
+2021-02-12 11:35:12,924 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-12 11:35:12,934 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-12 11:35:12,994 INFO org.springframework.boot.StartupInfoLogger [main] Started PersonApplicationTests in 1.141 seconds (JVM running for 1.725)
+2021-02-12 11:35:13,221 DEBUG org.springframework.context.support.AbstractApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@770d4269, started on Fri Feb 12 11:35:12 IST 2021
+2021-02-12 11:35:13,223 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-12 11:38:15,408 INFO org.springframework.boot.StartupInfoLogger [main] Starting PersonsApplication using Java 11.0.10 on affu274-GF63-Thin-9SC with PID 61491 (/data/EBI/persons/target/classes started by affu274 in /data/EBI/persons)
+2021-02-12 11:38:15,412 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-02-12 11:38:16,211 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-02-12 11:38:16,224 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-02-12 11:38:16,225 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-02-12 11:38:16,225 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-12 11:38:16,303 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-02-12 11:38:16,303 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 847 ms
+2021-02-12 11:38:16,381 INFO io.jsondb.JsonDBTemplate [main] Encryption is not enabled for JSON DB
+2021-02-12 11:38:16,445 INFO org.reflections.Reflections [main] Reflections took 29 ms to scan 1 urls, producing 1 keys and 1 values 
+2021-02-12 11:38:16,672 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-12 11:38:16,683 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-02-12 11:38:16,761 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 6 mappings in 'requestMappingHandlerMapping'
+2021-02-12 11:38:16,791 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-02-12 11:38:16,800 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-02-12 11:38:16,842 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-02-12 11:38:16,868 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/ebitest'
+2021-02-12 11:38:16,877 INFO org.springframework.boot.StartupInfoLogger [main] Started PersonsApplication in 1.94 seconds (JVM running for 2.38)
+2021-02-12 11:38:40,072 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-12 11:38:40,072 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-02-12 11:38:40,073 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected StandardServletMultipartResolver
+2021-02-12 11:38:40,073 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected AcceptHeaderLocaleResolver
+2021-02-12 11:38:40,073 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected FixedThemeResolver
+2021-02-12 11:38:40,074 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@68f00f62
+2021-02-12 11:38:40,074 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected org.springframework.web.servlet.support.SessionFlashMapManager@213f6d3a
+2021-02-12 11:38:40,074 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-02-12 11:38:40,074 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-02-12 11:38:40,081 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] GET "/ebitest/person/tff", parameters={}
+2021-02-12 11:38:40,086 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.ebitest.person.rest.controller.PersonRestController#get(String)
+2021-02-12 11:38:53,477 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.server.ResponseStatusException: 404 NOT_FOUND "No data found for the request"; nested exception is com.ebitest.person.exceptions.PersonCustomException: No data found for the request]
+2021-02-12 11:38:53,479 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 404 NOT_FOUND
+2021-02-12 11:38:53,487 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] "ERROR" dispatch for GET "/ebitest/error", parameters={}
+2021-02-12 11:38:53,490 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-02-12 11:38:53,503 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-02-12 11:38:53,503 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Writing [{timestamp=Fri Feb 12 11:38:53 IST 2021, status=404, error=Not Found, message=, path=/ebitest/person (truncated)...]
+2021-02-12 11:38:53,531 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Exiting from "ERROR" dispatch, status 404
