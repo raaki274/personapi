@@ -28,18 +28,43 @@
        > mvn package
        
     3. Once the build is successful, run the following Java command to run the application
-       > java -jar target/person-0.0.1-SNAPSHOT.jar
+       > java -jar ./target/person-0.0.1-SNAPSHOT.jar
        
-    4. The app will start running at - http://localhost:8080      
+    4. The app will start running at - http://localhost:8080
        
 #### Testing the application locally
-The app defines following CRUD APIs.
+The app defines following CRUD APIs,
 
-        GET     /ebitest/person/{id}
-        POST    /ebitest/person
-        PUT     /ebitest/person
-        DELETE  /ebitest/person/{id}
+    GET     /ebitest/person/{id}
+    POST    /ebitest/person
+    PUT     /ebitest/person
+    DELETE  /ebitest/person/{id}
 
+Sample inputs for the operations,
 
+JSON input for adding a person 
+    POST -> http://localhost:8080//ebitest/person
+    
+    {
+        "first_name": "John",
+        "last_name": "Keynes",
+        "age": 29,
+        "favourite_colour": "red"
+    }
 
+URI input for retrieving a person, here first_name is the id for retrieving a person
+    GET -> http://localhost:8080//ebitest/person/John
+    
+JSON input for updating a person
+    PUT -> http://localhost:8080//ebitest/person
+    
+    {
+        "first_name": "John",
+        "last_name": "Kelleys",
+        "age": 33,
+        "favourite_colour": "black"
+    }
 
+URI input for deleting a person
+    DELETE -> http://localhost:8080//ebitest/person/John
+    
