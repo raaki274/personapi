@@ -1,7 +1,7 @@
 # Spring Boot REST API example with simple CRUD operations to manage a Person entity
 
 ## Prerequisites
-    1. Have JDK 11 installed in your machine and set JAVA_HOME path - in memory database JSONDB is depending on JDK 11
+    1. Have JDK 11 installed in your machine and set JAVA_HOME path (in-memory database JSONDB is depending on JDK 11)
     
     2. Have Maven installed in your machine and verify Maven commands are working in CLI
     
