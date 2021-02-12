@@ -19,10 +19,10 @@
     
     2. Create a directory with name "jsondb"
     
-    3. JSONDB components used in the application will store the JSON collections under this location
+    3. Note: JSONDB components used in the application will store the JSON collections under this location only
     
 #### Build packaging and running the application locally
-    1. Go to the root/parent directory of the application where the pom.xml is placed inside your GIT clone directory
+    1. Go to the root/parent directory of the application codebase where the pom.xml is placed inside your GIT clone directory
     
     2. Run the following command to build package your application
        > mvn package
