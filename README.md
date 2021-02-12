@@ -14,7 +14,7 @@
 #### Clone the application code to your local directory
     https://github.com/raaki274/persons.git
 
-#### Create directory for saving collections into JSONDB an in memory database
+#### Create directory for saving collections into JSONDB an in-memory database
     1. Go to your home path $HOME in Linux and Mac and %HOMEPATH% in Windows machines
     
     2. Create a directory with name "jsondb"
