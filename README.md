@@ -53,7 +53,7 @@ The app defines following CRUD APIs,
 
 Sample inputs for the operations,
 
-JSON input for adding a person 
+URL and JSON input for adding a person 
 
     POST URL: http://localhost:8080/ebitest/person
     
@@ -64,12 +64,12 @@ JSON input for adding a person
         "favourite_colour": "red"
     }
 
-URI input for retrieving a person, here first_name is the id for retrieving a person
+URL with input for retrieving a person, here first_name is the id for retrieving a person
     
     GET URL: http://localhost:8080/ebitest/person/John
     
     
-JSON input for updating a person
+URL and JSON input for updating a person
     
     PUT URL: http://localhost:8080/ebitest/person
     
@@ -80,7 +80,7 @@ JSON input for updating a person
         "favourite_colour": "black"
     }
 
-URI input for deleting a person
+URL with input for deleting a person
 
     DELETE URL: http://localhost:8080/ebitest/person/John
     
@@ -89,15 +89,17 @@ URI input for deleting a person
 #### Testing the application via Postman
     1. Run the Postman client
     
-    2. To add person, select request method POST and paste the URL http://localhost:8080/ebitest/person
+    2. Open new request tab by clicking on "+ New" button
     
-    3. Click on Headers tab, add the following key value param Content-Type = application/json
+    3. To add person, select request method POST and paste the URL http://localhost:8080/ebitest/person
     
-    4. Click on Body tab, select 'raw' option, paste the sample JSON input from the above section
+    4. Click on Headers tab, add the following key value param Content-Type = application/json
     
-    5. Hit 'Send' button for submitting the request
+    5. Click on Body tab, select 'raw' option, paste the sample JSON input from the above section
     
-    6. For testing all four operations change the request methods and URLs as per the sample input section above and
+    6. Hit 'Send' button for submitting the request
+    
+    7. For testing all four operations change the request methods and URLs as per the sample input section above and
        use the respective sample JSON inputs
        
 
