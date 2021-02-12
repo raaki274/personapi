@@ -35,10 +35,10 @@
 #### Testing the application locally
 The app defines following CRUD APIs.
 
-    * GET     /ebitest/person/{id}
-    * POST    /ebitest/person
-    * PUT     /ebitest/person
-    * DELETE  /ebitest/person/{id}
+        GET     /ebitest/person/{id}
+        POST    /ebitest/person
+        PUT     /ebitest/person
+        DELETE  /ebitest/person/{id}
 
 
 
