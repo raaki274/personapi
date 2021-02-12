@@ -11,7 +11,7 @@
 
 ## Steps to setup the application and run
 
-#### Clone the application to your local directory
+#### Clone the application code to your local directory
     https://github.com/raaki274/persons.git
 
 #### Create directory for saving collections into JSONDB an in memory database
