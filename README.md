@@ -24,7 +24,7 @@
 #### Build packaging and running the application locally
     1. Go to the root/parent directory of the application codebase where the pom.xml is placed inside your GIT clone directory
     
-    2. Run the following command to build package your application
+    2. Run the following command to build-package your application
        > mvn package
        
     3. Once the build is successful, run the following Java command to run the application
