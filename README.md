@@ -43,7 +43,8 @@ The app defines following CRUD APIs,
 Sample inputs for the operations,
 
 JSON input for adding a person 
-    POST -> http://localhost:8080//ebitest/person
+
+    POST http://localhost:8080//ebitest/person
     
     {
         "first_name": "John",
@@ -53,10 +54,12 @@ JSON input for adding a person
     }
 
 URI input for retrieving a person, here first_name is the id for retrieving a person
-    GET -> http://localhost:8080//ebitest/person/John
+    
+    GET http://localhost:8080//ebitest/person/John
     
 JSON input for updating a person
-    PUT -> http://localhost:8080//ebitest/person
+    
+    PUT http://localhost:8080//ebitest/person
     
     {
         "first_name": "John",
@@ -66,5 +69,18 @@ JSON input for updating a person
     }
 
 URI input for deleting a person
-    DELETE -> http://localhost:8080//ebitest/person/John
+
+    DELETE http://localhost:8080//ebitest/person/John
     
+#### Dockerizing the application
+    1. Run the below command from the application's parent directory for building Docker image
+        > docker build -t person-app .
+    
+    2. Run the below command for running the application image inside Docker container
+        > docker run -p 8080:8080 person-app
+    
+    3. Application image will start and run at port number 8080 inside Docker container
+    
+    4. For accessing the application running inside Docker, you can use the same API URLs as mentioned above for accessing the application running locally
+
+
