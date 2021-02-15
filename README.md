@@ -22,7 +22,7 @@
     3. Note: JSONDB components used in the application will store the JSON collections under this location only
     
 #### Build packaging and running the application locally
-    1. Go to the root/parent directory of the application codebase where the pom.xml is placed inside your GIT clone directory
+    1. Go to the root/parent directory of the application codebase where the pom.xml is available inside your GIT clone directory
     
     2. Run the following command to build-package your application
        > mvn package
@@ -102,5 +102,4 @@ URL with input for deleting a person
     7. For testing all four operations change the request methods and URLs as per the sample input section above and
        use the respective sample JSON inputs
        
-
-
+### Thanks for your time spent exploring this, cheers!!
